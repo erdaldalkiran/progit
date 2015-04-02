@@ -12,3 +12,16 @@ There are two columns to the output - the left hand column indicates that the
 file is staged and the right hand column indicates that it’s modified.
 
 For an example, check page 49.
+
+##git diff
+**git diff**
+
+To see what you have changed but not staged
+
+**git diff --staged/--cached**
+
+To see the changes you have staged
+
+**git difftool**
+
+To see the changes through GUI
