@@ -67,3 +67,15 @@ To remove file from staged area but keep it in the working directory
 |%cr         | Committer date, relative            |
 |%cd         | Committer date                      |
 |%s          | Subject                             |
+
+
+|Options to limit the output of git log                   |
+|---------------------------------------------------------|
+| Option           | Description                          |
+| -(n)             | Show only the last n commits.        |
+| --since, --after | Limit the commits to those made after the specified date |
+| --until, --before| Limit the commits to those made before the specified date |
+| --author         | Only show commits in which the author entry matches the specified string |
+| --committer      | Only show commits in which the committer entry matches the specified string |
+| --grep           | Only show commits with a commit message containing the string |
+| -S               | Only show commit adding or removing code mathcing the string |
