@@ -16,7 +16,7 @@ deletes branch named __branch_name__
 ##git branch
 shows branches
 
-** shows the branch HEAD points
+\* shows the branch HEAD points
 
 ##git branch --merged
 shows bracnhed that are merged into the current branch
