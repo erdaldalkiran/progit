@@ -49,8 +49,8 @@ To remove file from staged area but keep it in the working directory
 |--pretty       | Show commits in an alternate format. Options include oneline, short, full, fuller, and format|
 
 
-|Useful options for git log --pretty=format        |
-|--------------------------------------------------|
+|Useful options for git log --pretty=format        ||
+|--------------------------------------------------|:-:|
 |Option      | Description of Output               |
 |%H          | Commit hash                         |
 |%h          | Abbreviated commit hash             |
@@ -69,8 +69,8 @@ To remove file from staged area but keep it in the working directory
 |%s          | Subject                             |
 
 
-|Options to limit the output of git log                   |
-|---------------------------------------------------------|
+|Options to limit the output of git log                   ||
+|---------------------------------------------------------|:-:|
 | Option           | Description                          |
 | -(n)             | Show only the last n commits.        |
 | --since, --after | Limit the commits to those made after the specified date |
