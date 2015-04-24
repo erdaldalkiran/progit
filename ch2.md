@@ -36,7 +36,7 @@ To remove file from staged area but keep it in the working directory
 
 ##git log
 |Common git log options                                       ||
-|-------------------------------------------------------------|:-:|
+|-------------------------------------------------------------|:-|
 |Option         | Description                                   |
 |-p             | Show the patch introduced with each commit    |
 |--stat         | Show statistics for files modified in each commit|
